@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2 
       - name: Hello world action step
         id: hello
-        uses: scaleross/action@v6
+        uses: scaleross/action@v7
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
